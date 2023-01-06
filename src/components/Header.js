@@ -18,6 +18,7 @@ function Header() {
         onClick={() => {
           setShow((prev) => !prev);
         }}
+        className='cursor-pointer'
       >
         <Bars3Icon
           className={`${show && 'hidden'} sm:hidden`}
